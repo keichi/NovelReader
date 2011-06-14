@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* NovelReaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* NovelReaderAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* NovelReaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* NovelReaderViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* NovelReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* NovelReaderViewController.m */; };
+		CB04A289139F8E9B003C7201 /* NovelDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB04A287139F8E9B003C7201 /* NovelDetailView.m */; };
+		CB04A28A139F8E9B003C7201 /* NovelDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB04A288139F8E9B003C7201 /* NovelDetailView.xib */; };
+		CB2C185B139E9C800050167A /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2C1841139E9C7F0050167A /* NSObject+JSON.m */; };
+		CB2C185C139E9C800050167A /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2C1844139E9C7F0050167A /* SBJsonParser.m */; };
+		CB2C185D139E9C800050167A /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2C1846139E9C7F0050167A /* SBJsonStreamParser.m */; };
+		CB2C185E139E9C800050167A /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2C1848139E9C7F0050167A /* SBJsonStreamParserAccumulator.m */; };
+		CB2C185F139E9C800050167A /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2C184A139E9C7F0050167A /* SBJsonStreamParserAdapter.m */; };
+		CB2C1860139E9C800050167A /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2C184C139E9C7F0050167A /* SBJsonStreamParserState.m */; };
+		CB2C1861139E9C800050167A /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2C184E139E9C7F0050167A /* SBJsonStreamWriter.m */; };
+		CB2C1862139E9C800050167A /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2C1850139E9C7F0050167A /* SBJsonStreamWriterAccumulator.m */; };
+		CB2C1863139E9C800050167A /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2C1852139E9C7F0050167A /* SBJsonStreamWriterState.m */; };
+		CB2C1864139E9C800050167A /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2C1854139E9C7F0050167A /* SBJsonTokeniser.m */; };
+		CB2C1865139E9C800050167A /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2C1856139E9C800050167A /* SBJsonWriter.m */; };
+		CB2C1866139E9C800050167A /* SBStateStack.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2C1858139E9C800050167A /* SBStateStack.m */; };
+		CB2C1867139E9C800050167A /* SBUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2C185A139E9C800050167A /* SBUTF8Stream.m */; };
+		CB32A4B913A24B09005E015D /* TableOfContentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB32A4B713A24B09005E015D /* TableOfContentsView.m */; };
+		CB32A4BA13A24B09005E015D /* TableOfContentsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB32A4B813A24B09005E015D /* TableOfContentsView.xib */; };
+		CB73C84713A2669400DCF7EF /* NovelView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB73C84513A2669400DCF7EF /* NovelView.m */; };
+		CB73C84813A2669400DCF7EF /* NovelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB73C84613A2669400DCF7EF /* NovelView.xib */; };
+		CB73C84B13A2743500DCF7EF /* NovelData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB73C84913A2743500DCF7EF /* NovelData.xcdatamodeld */; };
+		CBE6AFF6139F5CC100104FD4 /* NovelEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE6AFF5139F5CC100104FD4 /* NovelEntry.m */; };
+		CBE6B007139F600A00104FD4 /* NovelEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE6B006139F600A00104FD4 /* NovelEntryCell.m */; };
+		CBE6B009139F602900104FD4 /* NovelEntryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBE6B008139F602900104FD4 /* NovelEntryCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* NovelReaderAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NovelReaderAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* NovelReaderAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NovelReaderAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* NovelReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovelReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* NovelReaderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NovelReaderViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* NovelReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NovelReaderViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* NovelReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NovelReaderViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* NovelReader_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NovelReader_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* NovelReader-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NovelReader-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CB04A286139F8E9B003C7201 /* NovelDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NovelDetailView.h; path = ../NovelDetailView.h; sourceTree = "<group>"; };
+		CB04A287139F8E9B003C7201 /* NovelDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NovelDetailView.m; path = ../NovelDetailView.m; sourceTree = "<group>"; };
+		CB04A288139F8E9B003C7201 /* NovelDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NovelDetailView.xib; sourceTree = "<group>"; };
+		CB2C183F139E9C7F0050167A /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		CB2C1840139E9C7F0050167A /* NSObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSON.h"; sourceTree = "<group>"; };
+		CB2C1841139E9C7F0050167A /* NSObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSON.m"; sourceTree = "<group>"; };
+		CB2C1842139E9C7F0050167A /* SBJsonIncludes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonIncludes.h; sourceTree = "<group>"; };
+		CB2C1843139E9C7F0050167A /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		CB2C1844139E9C7F0050167A /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		CB2C1845139E9C7F0050167A /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		CB2C1846139E9C7F0050167A /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		CB2C1847139E9C7F0050167A /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		CB2C1848139E9C7F0050167A /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		CB2C1849139E9C7F0050167A /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		CB2C184A139E9C7F0050167A /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		CB2C184B139E9C7F0050167A /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		CB2C184C139E9C7F0050167A /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		CB2C184D139E9C7F0050167A /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		CB2C184E139E9C7F0050167A /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		CB2C184F139E9C7F0050167A /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		CB2C1850139E9C7F0050167A /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		CB2C1851139E9C7F0050167A /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		CB2C1852139E9C7F0050167A /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		CB2C1853139E9C7F0050167A /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		CB2C1854139E9C7F0050167A /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		CB2C1855139E9C800050167A /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		CB2C1856139E9C800050167A /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		CB2C1857139E9C800050167A /* SBStateStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBStateStack.h; sourceTree = "<group>"; };
+		CB2C1858139E9C800050167A /* SBStateStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBStateStack.m; sourceTree = "<group>"; };
+		CB2C1859139E9C800050167A /* SBUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBUTF8Stream.h; sourceTree = "<group>"; };
+		CB2C185A139E9C800050167A /* SBUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBUTF8Stream.m; sourceTree = "<group>"; };
+		CB32A4B613A24B09005E015D /* TableOfContentsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableOfContentsView.h; path = ../TableOfContentsView.h; sourceTree = "<group>"; };
+		CB32A4B713A24B09005E015D /* TableOfContentsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableOfContentsView.m; path = ../TableOfContentsView.m; sourceTree = "<group>"; };
+		CB32A4B813A24B09005E015D /* TableOfContentsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableOfContentsView.xib; sourceTree = "<group>"; };
+		CB73C84413A2669400DCF7EF /* NovelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NovelView.h; path = ../NovelView.h; sourceTree = "<group>"; };
+		CB73C84513A2669400DCF7EF /* NovelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NovelView.m; path = ../NovelView.m; sourceTree = "<group>"; };
+		CB73C84613A2669400DCF7EF /* NovelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NovelView.xib; sourceTree = "<group>"; };
+		CB73C84A13A2743500DCF7EF /* NovelData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NovelData.xcdatamodel; sourceTree = "<group>"; };
+		CBE6AFF4139F5CC100104FD4 /* NovelEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NovelEntry.h; path = ../NovelEntry.h; sourceTree = "<group>"; };
+		CBE6AFF5139F5CC100104FD4 /* NovelEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NovelEntry.m; path = ../NovelEntry.m; sourceTree = "<group>"; };
+		CBE6B005139F600A00104FD4 /* NovelEntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NovelEntryCell.h; sourceTree = "<group>"; };
+		CBE6B006139F600A00104FD4 /* NovelEntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NovelEntryCell.m; sourceTree = "<group>"; };
+		CBE6B008139F602900104FD4 /* NovelEntryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NovelEntryCell.xib; path = Classes/NovelEntryCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CBE6AFF4139F5CC100104FD4 /* NovelEntry.h */,
+				CBE6AFF5139F5CC100104FD4 /* NovelEntry.m */,
+				CB73C84413A2669400DCF7EF /* NovelView.h */,
+				CB73C84513A2669400DCF7EF /* NovelView.m */,
+				CB04A286139F8E9B003C7201 /* NovelDetailView.h */,
+				CB04A287139F8E9B003C7201 /* NovelDetailView.m */,
+				CB32A4B613A24B09005E015D /* TableOfContentsView.h */,
+				CB32A4B713A24B09005E015D /* TableOfContentsView.m */,
+				CBE6B005139F600A00104FD4 /* NovelEntryCell.h */,
+				CBE6B006139F600A00104FD4 /* NovelEntryCell.m */,
+				CB2C183E139E9C7F0050167A /* JSON */,
+				1D3623240D0F684500981E51 /* NovelReaderAppDelegate.h */,
+				1D3623250D0F684500981E51 /* NovelReaderAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* NovelReaderViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* NovelReaderViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* NovelReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				CB73C84D13A2760C00DCF7EF /* Data Models */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* NovelReader_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CBE6B008139F602900104FD4 /* NovelEntryCell.xib */,
+				CB73C84613A2669400DCF7EF /* NovelView.xib */,
+				CB32A4B813A24B09005E015D /* TableOfContentsView.xib */,
+				2899E5210DE3E06400AC0155 /* NovelReaderViewController.xib */,
+				CB04A288139F8E9B003C7201 /* NovelDetailView.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* NovelReader-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB2C183E139E9C7F0050167A /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				CB2C183F139E9C7F0050167A /* JSON.h */,
+				CB2C1840139E9C7F0050167A /* NSObject+JSON.h */,
+				CB2C1841139E9C7F0050167A /* NSObject+JSON.m */,
+				CB2C1842139E9C7F0050167A /* SBJsonIncludes.h */,
+				CB2C1843139E9C7F0050167A /* SBJsonParser.h */,
+				CB2C1844139E9C7F0050167A /* SBJsonParser.m */,
+				CB2C1845139E9C7F0050167A /* SBJsonStreamParser.h */,
+				CB2C1846139E9C7F0050167A /* SBJsonStreamParser.m */,
+				CB2C1847139E9C7F0050167A /* SBJsonStreamParserAccumulator.h */,
+				CB2C1848139E9C7F0050167A /* SBJsonStreamParserAccumulator.m */,
+				CB2C1849139E9C7F0050167A /* SBJsonStreamParserAdapter.h */,
+				CB2C184A139E9C7F0050167A /* SBJsonStreamParserAdapter.m */,
+				CB2C184B139E9C7F0050167A /* SBJsonStreamParserState.h */,
+				CB2C184C139E9C7F0050167A /* SBJsonStreamParserState.m */,
+				CB2C184D139E9C7F0050167A /* SBJsonStreamWriter.h */,
+				CB2C184E139E9C7F0050167A /* SBJsonStreamWriter.m */,
+				CB2C184F139E9C7F0050167A /* SBJsonStreamWriterAccumulator.h */,
+				CB2C1850139E9C7F0050167A /* SBJsonStreamWriterAccumulator.m */,
+				CB2C1851139E9C7F0050167A /* SBJsonStreamWriterState.h */,
+				CB2C1852139E9C7F0050167A /* SBJsonStreamWriterState.m */,
+				CB2C1853139E9C7F0050167A /* SBJsonTokeniser.h */,
+				CB2C1854139E9C7F0050167A /* SBJsonTokeniser.m */,
+				CB2C1855139E9C800050167A /* SBJsonWriter.h */,
+				CB2C1856139E9C800050167A /* SBJsonWriter.m */,
+				CB2C1857139E9C800050167A /* SBStateStack.h */,
+				CB2C1858139E9C800050167A /* SBStateStack.m */,
+				CB2C1859139E9C800050167A /* SBUTF8Stream.h */,
+				CB2C185A139E9C800050167A /* SBUTF8Stream.m */,
+			);
+			name = JSON;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CB73C84D13A2760C00DCF7EF /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB73C84913A2743500DCF7EF /* NovelData.xcdatamodeld */,
+			);
+			name = "Data Models";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* NovelReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "NovelReader" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NovelReader;
+			productName = NovelReader;
+			productReference = 1D6058910D05DD3D006BFB54 /* NovelReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NovelReader" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* NovelReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* NovelReaderViewController.xib in Resources */,
+				CBE6B009139F602900104FD4 /* NovelEntryCell.xib in Resources */,
+				CB04A28A139F8E9B003C7201 /* NovelDetailView.xib in Resources */,
+				CB32A4BA13A24B09005E015D /* TableOfContentsView.xib in Resources */,
+				CB73C84813A2669400DCF7EF /* NovelView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* NovelReaderAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* NovelReaderViewController.m in Sources */,
+				CB2C185B139E9C800050167A /* NSObject+JSON.m in Sources */,
+				CB2C185C139E9C800050167A /* SBJsonParser.m in Sources */,
+				CB2C185D139E9C800050167A /* SBJsonStreamParser.m in Sources */,
+				CB2C185E139E9C800050167A /* SBJsonStreamParserAccumulator.m in Sources */,
+				CB2C185F139E9C800050167A /* SBJsonStreamParserAdapter.m in Sources */,
+				CB2C1860139E9C800050167A /* SBJsonStreamParserState.m in Sources */,
+				CB2C1861139E9C800050167A /* SBJsonStreamWriter.m in Sources */,
+				CB2C1862139E9C800050167A /* SBJsonStreamWriterAccumulator.m in Sources */,
+				CB2C1863139E9C800050167A /* SBJsonStreamWriterState.m in Sources */,
+				CB2C1864139E9C800050167A /* SBJsonTokeniser.m in Sources */,
+				CB2C1865139E9C800050167A /* SBJsonWriter.m in Sources */,
+				CB2C1866139E9C800050167A /* SBStateStack.m in Sources */,
+				CB2C1867139E9C800050167A /* SBUTF8Stream.m in Sources */,
+				CBE6AFF6139F5CC100104FD4 /* NovelEntry.m in Sources */,
+				CBE6B007139F600A00104FD4 /* NovelEntryCell.m in Sources */,
+				CB04A289139F8E9B003C7201 /* NovelDetailView.m in Sources */,
+				CB32A4B913A24B09005E015D /* TableOfContentsView.m in Sources */,
+				CB73C84713A2669400DCF7EF /* NovelView.m in Sources */,
+				CB73C84B13A2743500DCF7EF /* NovelData.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NovelReader_Prefix.pch;
+				INFOPLIST_FILE = "NovelReader-Info.plist";
+				PRODUCT_NAME = NovelReader;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NovelReader_Prefix.pch;
+				INFOPLIST_FILE = "NovelReader-Info.plist";
+				PRODUCT_NAME = NovelReader;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-licucore";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "NovelReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NovelReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB73C84913A2743500DCF7EF /* NovelData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB73C84A13A2743500DCF7EF /* NovelData.xcdatamodel */,
+			);
+			currentVersion = CB73C84A13A2743500DCF7EF /* NovelData.xcdatamodel */;
+			path = NovelData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

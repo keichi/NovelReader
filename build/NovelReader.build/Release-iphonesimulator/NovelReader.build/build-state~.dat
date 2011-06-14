@@ -1,0 +1,678 @@
+TNovelReader
+v7
+r0
+t329191758.557539
+cCheck dependencies
+cProcessInfoPlistFile /Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app/Info.plist NovelReader-Info.plist
+cCompileXIB /Users/keichi/Documents/NovelReader/MainWindow.xib
+cCompileXIB /Users/keichi/Documents/NovelReader/NovelReaderViewController.xib
+cProcessPCH /var/folders/Jt/Jt31f9luElijOhVBEWfjak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NovelReader_Prefix-dnqhegdnthgibqcfwfvdqliynqim/NovelReader_Prefix.pch.gch NovelReader_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/main.o /Users/keichi/Documents/NovelReader/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/NovelReaderAppDelegate.o /Users/keichi/Documents/NovelReader/Classes/NovelReaderAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/NovelReaderViewController.o /Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/NSObject+JSON.o /Users/keichi/Documents/NovelReader/Classes/Classes/NSObject+JSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonParser.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamParser.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserAccumulator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamParserAdapter.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserAdapter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamParserState.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserState.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamWriter.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriterAccumulator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamWriterState.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriterState.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonTokeniser.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonTokeniser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonWriter.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBStateStack.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBStateStack.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBUTF8Stream.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBUTF8Stream.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app/NovelReader normal i386
+cGenerateDSYMFile /Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app.dSYM /Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app/NovelReader
+cTouch /Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004A1198340000000000000C7E
+t1242667060
+s3198
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/NSObject+JSON.h
+c000000004DD9ACAA00000000000007DB
+t1306111146
+s2011
+i<Foundation/Foundation.h>
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/NSObject+JSON.m
+c000000004DD9ACAA00000000000008C2
+t1306111146
+s2242
+i"NSObject+JSON.h"
+i"SBJsonWriter.h"
+i"SBJsonParser.h"
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonParser.h
+c000000004DD9ACAA0000000000000FC1
+t1306111146
+s4033
+i<Foundation/Foundation.h>
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonParser.m
+c000000004DD9ACAA0000000000000CBF
+t1306111146
+s3263
+i"SBJsonParser.h"
+i"SBJsonStreamParser.h"
+i"SBJsonStreamParserAdapter.h"
+i"SBJsonStreamParserAccumulator.h"
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParser.h
+c000000004DD9ACAA000000000000117F
+t1306111146
+s4479
+i<Foundation/Foundation.h>
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParser.m
+c000000004DD9ACAA000000000000199D
+t1306111146
+s6557
+i"SBJsonStreamParser.h"
+i"SBJsonTokeniser.h"
+i"SBJsonStreamParserState.h"
+i"SBStateStack.h"
+i<limits.h>
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserAccumulator.h
+c000000004DD9ACAA00000000000006D7
+t1306111146
+s1751
+i<Foundation/Foundation.h>
+i"SBJsonStreamParserAdapter.h"
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserAccumulator.m
+c000000004DD9ACAA000000000000079B
+t1306111146
+s1947
+i"SBJsonStreamParserAccumulator.h"
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserAdapter.h
+c000000004DD9ACAA0000000000000C3B
+t1306111146
+s3131
+i<Foundation/Foundation.h>
+i"SBJsonStreamParser.h"
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserAdapter.m
+c000000004DD9ACAA00000000000011A1
+t1306111146
+s4513
+i"SBJsonStreamParserAdapter.h"
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserState.h
+c000000004DD9ACAA0000000000000B10
+t1306111146
+s2832
+i<Foundation/Foundation.h>
+i"SBJsonTokeniser.h"
+i"SBJsonStreamParser.h"
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserState.m
+c000000004DD9ACAA0000000000001F5A
+t1306111146
+s8026
+i"SBJsonStreamParserState.h"
+i"SBJsonStreamParser.h"
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriter.h
+c000000004DD9ACAA00000000000016BA
+t1306111146
+s5818
+i<Foundation/Foundation.h>
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriter.m
+c000000004DD9ACAA0000000000002871
+t1306111146
+s10353
+i"SBJsonStreamWriter.h"
+i"SBJsonStreamWriterState.h"
+i"SBStateStack.h"
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriterAccumulator.h
+c000000004DD9ACAA00000000000006B2
+t1306111146
+s1714
+i"SBJsonStreamWriter.h"
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriterAccumulator.m
+c000000004DD9ACAA00000000000007E6
+t1306111146
+s2022
+i"SBJsonStreamWriterAccumulator.h"
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriterState.h
+c000000004DD9ACAA00000000000009EC
+t1306111146
+s2540
+i<Foundation/Foundation.h>
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriterState.m
+c000000004DD9ACAA0000000000000F7A
+t1306111146
+s3962
+i"SBJsonStreamWriterState.h"
+i"SBJsonStreamWriter.h"
+i"SBStateStack.h"
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonTokeniser.h
+c000000004DD9ACAA0000000000000894
+t1306111146
+s2196
+i<Foundation/Foundation.h>
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonTokeniser.m
+c000000004DD9ACAA0000000000003298
+t1306111146
+s12952
+i"SBJsonTokeniser.h"
+i"SBUTF8Stream.h"
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonWriter.h
+c000000004DD9ACAA0000000000001305
+t1306111146
+s4869
+i<Foundation/Foundation.h>
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonWriter.m
+c000000004DD9ACAA0000000000000DBE
+t1306111146
+s3518
+i"SBJsonWriter.h"
+i"SBJsonStreamWriter.h"
+i"SBJsonStreamWriterAccumulator.h"
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBStateStack.h
+c000000004DD9ACAA0000000000000709
+t1306111146
+s1801
+i<Foundation/Foundation.h>
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBStateStack.m
+c000000004DD9ACAA0000000000000869
+t1306111146
+s2153
+i"SBStateStack.h"
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBUTF8Stream.h
+c000000004DD9ACAA0000000000000839
+t1306111146
+s2105
+i<Foundation/Foundation.h>
+
+N/Users/keichi/Documents/NovelReader/Classes/Classes/SBUTF8Stream.m
+c000000004DD9ACAA0000000000000F98
+t1306111146
+s3992
+i"SBUTF8Stream.h"
+
+N/Users/keichi/Documents/NovelReader/Classes/NovelReaderAppDelegate.h
+c000000004DEE5AEE00000000000001FC
+t1307466478
+s508
+i<UIKit/UIKit.h>
+
+N/Users/keichi/Documents/NovelReader/Classes/NovelReaderAppDelegate.m
+c000000004DEE55D00000000000000AAE
+t1307465168
+s2734
+i"NovelReaderAppDelegate.h"
+i"NovelReaderViewController.h"
+
+N/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.h
+c000000004DEE66CD0000000000000135
+t1307469517
+s309
+i<UIKit/UIKit.h>
+
+N/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m
+c000000004DEE6E490000000000000AD1
+t1307471433
+s2769
+i"NovelReaderViewController.h"
+i"SBJsonParser.h"
+
+N/Users/keichi/Documents/NovelReader/MainWindow.xib
+c000000004DEE55D00000000000004E59
+t1307465168
+s20057
+
+N/Users/keichi/Documents/NovelReader/NovelReaderViewController.xib
+c000000004DEE6D7F0000000000004D09
+t1307471231
+s19721
+
+N/Users/keichi/Documents/NovelReader/NovelReader_Prefix.pch
+c000000004DEE55D000000000000000BF
+t1307465168
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/NSObject+JSON.o
+t1307498956
+s8672
+
+N/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/NovelReader.LinkFileList
+c000000004DEED9CA00000000000008F4
+t1307498954
+s2292
+
+N/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/NovelReaderAppDelegate.o
+t1307498956
+s51600
+
+N/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/NovelReaderViewController.o
+t1307498956
+s44240
+
+N/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonParser.o
+t1307498957
+s16224
+
+N/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamParser.o
+t1307498957
+s23896
+
+N/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o
+t1307498957
+s9852
+
+N/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamParserAdapter.o
+t1307498957
+s22144
+
+N/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamParserState.o
+t1307498957
+s43424
+
+N/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamWriter.o
+t1307498958
+s39672
+
+N/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o
+t1307498957
+s10500
+
+N/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamWriterState.o
+t1307498957
+s27248
+
+N/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonTokeniser.o
+t1307498958
+s27792
+
+N/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonWriter.o
+t1307498958
+s18068
+
+N/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBStateStack.o
+t1307498958
+s9568
+
+N/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBUTF8Stream.o
+t1307498958
+s16740
+
+N/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/main.o
+t1307498956
+s6284
+
+N/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app
+t1307498958
+s238
+
+N/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app.dSYM
+t1307498958
+s102
+
+N/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app/Info.plist
+t1307498954
+s607
+
+N/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app/MainWindow.nib
+t1307498955
+s1131
+
+N/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app/NovelReader
+t1307498958
+s105760
+
+N/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app/NovelReaderViewController.nib
+t1307498955
+s1169
+
+N/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app/PkgInfo
+t1307498954
+s8
+
+N/Users/keichi/Documents/NovelReader/main.m
+c000000004DEE55D00000000000000172
+t1307465168
+s370
+i<UIKit/UIKit.h>
+
+N/var/folders/Jt/Jt31f9luElijOhVBEWfjak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NovelReader_Prefix-dnqhegdnthgibqcfwfvdqliynqim/NovelReader_Prefix.pch.gch
+t1307498956
+s15113424
+
+NNovelReader-Info.plist
+c000000004DEE55D0000000000000038D
+t1307465168
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies329191754#329191754#0(0"0(0#1#0"8614443136#0"0#
+
+CCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/NSObject+JSON.o /Users/keichi/Documents/NovelReader/Classes/Classes/NSObject+JSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329191756.771392
+e329191756.894462
+r1
+xCompileC
+xbuild/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/NSObject+JSON.o
+x/Users/keichi/Documents/NovelReader/Classes/Classes/NSObject+JSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/keichi/Documents/NovelReader/Classes/Classes/NSObject+JSON.m329191756#329191756#0(0"0(0#0#67"/Users/keichi/Documents/NovelReader/Classes/Classes/NSObject+JSON.m8613703264#2054"    cd /Users/keichi/Documents/NovelReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-generated-files.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-own-target-headers.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-all-target-headers.hmap -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-project-headers.hmap -F/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator -I/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/include -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources/i386 -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Jt/Jt31f9luElijOhVBEWfjak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NovelReader_Prefix-dnqhegdnthgibqcfwfvdqliynqim/NovelReader_Prefix.pch -c /Users/keichi/Documents/NovelReader/Classes/Classes/NSObject+JSON.m -o /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/NSObject+JSON.o0#
+
+CCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/NovelReaderAppDelegate.o /Users/keichi/Documents/NovelReader/Classes/NovelReaderAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329191756.569276
+e329191756.771219
+r1
+xCompileC
+xbuild/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/NovelReaderAppDelegate.o
+x/Users/keichi/Documents/NovelReader/Classes/NovelReaderAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/keichi/Documents/NovelReader/Classes/NovelReaderAppDelegate.m329191756#329191756#0(0"0(0#0#68"/Users/keichi/Documents/NovelReader/Classes/NovelReaderAppDelegate.m8603754560#2064"    cd /Users/keichi/Documents/NovelReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-generated-files.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-own-target-headers.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-all-target-headers.hmap -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-project-headers.hmap -F/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator -I/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/include -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources/i386 -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Jt/Jt31f9luElijOhVBEWfjak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NovelReader_Prefix-dnqhegdnthgibqcfwfvdqliynqim/NovelReader_Prefix.pch -c /Users/keichi/Documents/NovelReader/Classes/NovelReaderAppDelegate.m -o /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/NovelReaderAppDelegate.o0#
+
+CCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/NovelReaderViewController.o /Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329191756.666108
+e329191756.875062
+r1
+xCompileC
+xbuild/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/NovelReaderViewController.o
+x/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m: In function '-[NovelReaderViewController viewDidLoad]':
+o/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m:39: warning: 'NSString' may not respond to '-JSONValue'
+o/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m:39: warning: (Messages without a matching method signature
+o/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m:39: warning: will be assumed to return 'id' and accept
+o/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m:39: warning: '...' as arguments.)
+lSLF07#2@79"Compile /Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m329191756#329191756#0(621"/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m: In function '-[NovelReaderViewController viewDidLoad]':/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m:39: warning: 'NSString' may not respond to '-JSONValue'/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m:39: warning: (Messages without a matching method signature/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m:39: warning: will be assumed to return 'id' and accept/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m:39: warning: '...' as arguments.)2(22@42"'NSString' may not respond to '-JSONValue'329191756#129#128#0(6@71"/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m329164233#39#0#39#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)329191756#257#131#0(6@71"/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m329164233#39#0#39#0#0"0(0#0#71"/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m8602440512#2070"    cd /Users/keichi/Documents/NovelReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-generated-files.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-own-target-headers.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-all-target-headers.hmap -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-project-headers.hmap -F/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator -I/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/include -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources/i386 -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Jt/Jt31f9luElijOhVBEWfjak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NovelReader_Prefix-dnqhegdnthgibqcfwfvdqliynqim/NovelReader_Prefix.pch -c /Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m -o /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/NovelReaderViewController.o0#
+
+CCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonParser.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329191756.875179
+e329191757.073089
+r1
+xCompileC
+xbuild/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonParser.o
+x/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonParser.m329191756#329191757#0(0"0(0#0#66"/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonParser.m8613269024#2052"    cd /Users/keichi/Documents/NovelReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-generated-files.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-own-target-headers.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-all-target-headers.hmap -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-project-headers.hmap -F/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator -I/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/include -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources/i386 -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Jt/Jt31f9luElijOhVBEWfjak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NovelReader_Prefix-dnqhegdnthgibqcfwfvdqliynqim/NovelReader_Prefix.pch -c /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonParser.m -o /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamParser.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329191756.894580
+e329191757.217023
+r1
+xCompileC
+xbuild/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamParser.o
+x/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParser.m329191756#329191757#0(0"0(0#0#72"/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParser.m8612924288#2064"    cd /Users/keichi/Documents/NovelReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-generated-files.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-own-target-headers.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-all-target-headers.hmap -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-project-headers.hmap -F/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator -I/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/include -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources/i386 -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Jt/Jt31f9luElijOhVBEWfjak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NovelReader_Prefix-dnqhegdnthgibqcfwfvdqliynqim/NovelReader_Prefix.pch -c /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParser.m -o /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamParser.o0#
+
+CCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserAccumulator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329191757.073202
+e329191757.164146
+r1
+xCompileC
+xbuild/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o
+x/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserAccumulator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserAccumulator.m329191757#329191757#0(0"0(0#0#83"/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserAccumulator.m8615026208#2086"    cd /Users/keichi/Documents/NovelReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-generated-files.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-own-target-headers.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-all-target-headers.hmap -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-project-headers.hmap -F/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator -I/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/include -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources/i386 -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Jt/Jt31f9luElijOhVBEWfjak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NovelReader_Prefix-dnqhegdnthgibqcfwfvdqliynqim/NovelReader_Prefix.pch -c /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserAccumulator.m -o /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o0#
+
+CCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamParserAdapter.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserAdapter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329191757.164501
+e329191757.452389
+r1
+xCompileC
+xbuild/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamParserAdapter.o
+x/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserAdapter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserAdapter.m329191757#329191757#0(0"0(0#0#79"/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserAdapter.m8614686368#2078"    cd /Users/keichi/Documents/NovelReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-generated-files.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-own-target-headers.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-all-target-headers.hmap -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-project-headers.hmap -F/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator -I/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/include -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources/i386 -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Jt/Jt31f9luElijOhVBEWfjak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NovelReader_Prefix-dnqhegdnthgibqcfwfvdqliynqim/NovelReader_Prefix.pch -c /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserAdapter.m -o /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamParserAdapter.o0#
+
+CCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamParserState.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserState.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329191757.217183
+e329191757.526574
+r1
+xCompileC
+xbuild/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamParserState.o
+x/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserState.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserState.m329191757#329191757#0(0"0(0#0#77"/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserState.m8613112256#2074"    cd /Users/keichi/Documents/NovelReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-generated-files.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-own-target-headers.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-all-target-headers.hmap -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-project-headers.hmap -F/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator -I/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/include -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources/i386 -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Jt/Jt31f9luElijOhVBEWfjak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NovelReader_Prefix-dnqhegdnthgibqcfwfvdqliynqim/NovelReader_Prefix.pch -c /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamParserState.m -o /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamParserState.o0#
+
+CCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamWriter.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329191757.452505
+e329191758.107088
+r1
+xCompileC
+xbuild/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamWriter.o
+x/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriter.m329191757#329191758#0(0"0(0#0#72"/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriter.m8602770720#2064"    cd /Users/keichi/Documents/NovelReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-generated-files.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-own-target-headers.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-all-target-headers.hmap -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-project-headers.hmap -F/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator -I/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/include -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources/i386 -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Jt/Jt31f9luElijOhVBEWfjak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NovelReader_Prefix-dnqhegdnthgibqcfwfvdqliynqim/NovelReader_Prefix.pch -c /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriter.m -o /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamWriter.o0#
+
+CCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriterAccumulator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329191757.526740
+e329191757.667386
+r1
+xCompileC
+xbuild/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o
+x/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriterAccumulator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriterAccumulator.m329191757#329191757#0(0"0(0#0#83"/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriterAccumulator.m8614694944#2086"    cd /Users/keichi/Documents/NovelReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-generated-files.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-own-target-headers.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-all-target-headers.hmap -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-project-headers.hmap -F/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator -I/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/include -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources/i386 -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Jt/Jt31f9luElijOhVBEWfjak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NovelReader_Prefix-dnqhegdnthgibqcfwfvdqliynqim/NovelReader_Prefix.pch -c /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriterAccumulator.m -o /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o0#
+
+CCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamWriterState.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriterState.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329191757.667511
+e329191757.847442
+r1
+xCompileC
+xbuild/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamWriterState.o
+x/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriterState.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriterState.m329191757#329191757#0(0"0(0#0#77"/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriterState.m8614857280#2074"    cd /Users/keichi/Documents/NovelReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-generated-files.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-own-target-headers.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-all-target-headers.hmap -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-project-headers.hmap -F/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator -I/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/include -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources/i386 -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Jt/Jt31f9luElijOhVBEWfjak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NovelReader_Prefix-dnqhegdnthgibqcfwfvdqliynqim/NovelReader_Prefix.pch -c /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonStreamWriterState.m -o /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonStreamWriterState.o0#
+
+CCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonTokeniser.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonTokeniser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329191757.847608
+e329191758.179671
+r1
+xCompileC
+xbuild/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonTokeniser.o
+x/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonTokeniser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonTokeniser.m329191757#329191758#0(0"0(0#0#69"/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonTokeniser.m8612668288#2058"    cd /Users/keichi/Documents/NovelReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-generated-files.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-own-target-headers.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-all-target-headers.hmap -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-project-headers.hmap -F/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator -I/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/include -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources/i386 -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Jt/Jt31f9luElijOhVBEWfjak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NovelReader_Prefix-dnqhegdnthgibqcfwfvdqliynqim/NovelReader_Prefix.pch -c /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonTokeniser.m -o /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonTokeniser.o0#
+
+CCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonWriter.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329191758.107292
+e329191758.291947
+r1
+xCompileC
+xbuild/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonWriter.m329191758#329191758#0(0"0(0#0#66"/Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonWriter.m8614954592#2052"    cd /Users/keichi/Documents/NovelReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-generated-files.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-own-target-headers.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-all-target-headers.hmap -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-project-headers.hmap -F/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator -I/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/include -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources/i386 -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Jt/Jt31f9luElijOhVBEWfjak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NovelReader_Prefix-dnqhegdnthgibqcfwfvdqliynqim/NovelReader_Prefix.pch -c /Users/keichi/Documents/NovelReader/Classes/Classes/SBJsonWriter.m -o /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBStateStack.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBStateStack.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329191758.179791
+e329191758.317790
+r1
+xCompileC
+xbuild/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBStateStack.o
+x/Users/keichi/Documents/NovelReader/Classes/Classes/SBStateStack.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/keichi/Documents/NovelReader/Classes/Classes/SBStateStack.m329191758#329191758#0(0"0(0#0#66"/Users/keichi/Documents/NovelReader/Classes/Classes/SBStateStack.m8614721984#2052"    cd /Users/keichi/Documents/NovelReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-generated-files.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-own-target-headers.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-all-target-headers.hmap -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-project-headers.hmap -F/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator -I/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/include -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources/i386 -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Jt/Jt31f9luElijOhVBEWfjak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NovelReader_Prefix-dnqhegdnthgibqcfwfvdqliynqim/NovelReader_Prefix.pch -c /Users/keichi/Documents/NovelReader/Classes/Classes/SBStateStack.m -o /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBStateStack.o0#
+
+CCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBUTF8Stream.o /Users/keichi/Documents/NovelReader/Classes/Classes/SBUTF8Stream.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329191758.292061
+e329191758.472520
+r1
+xCompileC
+xbuild/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBUTF8Stream.o
+x/Users/keichi/Documents/NovelReader/Classes/Classes/SBUTF8Stream.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/keichi/Documents/NovelReader/Classes/Classes/SBUTF8Stream.m329191758#329191758#0(0"0(0#0#66"/Users/keichi/Documents/NovelReader/Classes/Classes/SBUTF8Stream.m8612623616#2052"    cd /Users/keichi/Documents/NovelReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-generated-files.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-own-target-headers.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-all-target-headers.hmap -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-project-headers.hmap -F/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator -I/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/include -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources/i386 -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Jt/Jt31f9luElijOhVBEWfjak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NovelReader_Prefix-dnqhegdnthgibqcfwfvdqliynqim/NovelReader_Prefix.pch -c /Users/keichi/Documents/NovelReader/Classes/Classes/SBUTF8Stream.m -o /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/SBUTF8Stream.o0#
+
+CCompileC build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/main.o /Users/keichi/Documents/NovelReader/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329191756.568015
+e329191756.665994
+r1
+xCompileC
+xbuild/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/main.o
+x/Users/keichi/Documents/NovelReader/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/keichi/Documents/NovelReader/main.m329191756#329191756#0(0"0(0#0#42"/Users/keichi/Documents/NovelReader/main.m8612621440#2020"    cd /Users/keichi/Documents/NovelReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-generated-files.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-own-target-headers.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-all-target-headers.hmap -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-project-headers.hmap -F/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator -I/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/include -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources/i386 -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Jt/Jt31f9luElijOhVBEWfjak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NovelReader_Prefix-dnqhegdnthgibqcfwfvdqliynqim/NovelReader_Prefix.pch -c /Users/keichi/Documents/NovelReader/main.m -o /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/keichi/Documents/NovelReader/MainWindow.xib
+s329191754.696743
+e329191755.645007
+r1
+xCompileXIB
+x/Users/keichi/Documents/NovelReader/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib329191754#329191755#0(0"0(0#0#50"/Users/keichi/Documents/NovelReader/MainWindow.xib8602443904#567"    cd /Users/keichi/Documents/NovelReader    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app/MainWindow.nib /Users/keichi/Documents/NovelReader/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/keichi/Documents/NovelReader/NovelReaderViewController.xib
+s329191754.697557
+e329191755.595045
+r1
+xCompileXIB
+x/Users/keichi/Documents/NovelReader/NovelReaderViewController.xib
+lSLF07#2@40"CompileXIB NovelReaderViewController.xib329191754#329191755#0(0"0(0#0#65"/Users/keichi/Documents/NovelReader/NovelReaderViewController.xib8602126240#597"    cd /Users/keichi/Documents/NovelReader    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app/NovelReaderViewController.nib /Users/keichi/Documents/NovelReader/NovelReaderViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app.dSYM /Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app/NovelReader
+s329191758.521313
+e329191758.552884
+r1
+xGenerateDSYMFile
+x/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app.dSYM
+x/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app/NovelReader
+lSLF07#2@125"GenerateDSYMFile build/Release-iphonesimulator/NovelReader.app.dSYM build/Release-iphonesimulator/NovelReader.app/NovelReader329191758#329191758#0(0"0(0#0#93"/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app/NovelReader8614217504#390"    cd /Users/keichi/Documents/NovelReader    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app/NovelReader -o /Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app.dSYM0#
+
+CLd /Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app/NovelReader normal i386
+s329191758.472624
+e329191758.521185
+r1
+xLd
+x/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app/NovelReader
+xnormal
+xi386
+lSLF07#2@98"Link /Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app/NovelReader329191758#329191758#0(0"0(0#0#0"8615050592#913"    cd /Users/keichi/Documents/NovelReader    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator -F/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator -filelist /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/Objects-normal/i386/NovelReader.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app/NovelReader0#
+
+CProcessInfoPlistFile /Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app/Info.plist NovelReader-Info.plist
+s329191754.693102
+e329191754.696657
+r1
+xProcessInfoPlistFile
+x/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app/Info.plist
+xNovelReader-Info.plist
+lSLF07#2@30"Process NovelReader-Info.plist329191754#329191754#0(0"0(0#0#58"/Users/keichi/Documents/NovelReader/NovelReader-Info.plist8603393056#486"    cd /Users/keichi/Documents/NovelReader    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility NovelReader-Info.plist -genpkginfo /Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app/Info.plist0#
+
+CProcessPCH /var/folders/Jt/Jt31f9luElijOhVBEWfjak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NovelReader_Prefix-dnqhegdnthgibqcfwfvdqliynqim/NovelReader_Prefix.pch.gch NovelReader_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s329191755.645150
+e329191756.567802
+r1
+xProcessPCH
+x/var/folders/Jt/Jt31f9luElijOhVBEWfjak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NovelReader_Prefix-dnqhegdnthgibqcfwfvdqliynqim/NovelReader_Prefix.pch.gch
+xNovelReader_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile NovelReader_Prefix.pch329191755#329191756#0(0"0(0#0#58"/Users/keichi/Documents/NovelReader/NovelReader_Prefix.pch8613890624#1909"    cd /Users/keichi/Documents/NovelReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-generated-files.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-own-target-headers.hmap -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-all-target-headers.hmap -iquote /Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/NovelReader-project-headers.hmap -F/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator -I/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/include -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources/i386 -I/Users/keichi/Documents/NovelReader/build/NovelReader.build/Release-iphonesimulator/NovelReader.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/keichi/Documents/NovelReader/NovelReader_Prefix.pch -o /var/folders/Jt/Jt31f9luElijOhVBEWfjak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NovelReader_Prefix-dnqhegdnthgibqcfwfvdqliynqim/NovelReader_Prefix.pch.gch0#
+
+CTouch /Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app
+s329191758.552983
+e329191758.557502
+r1
+xTouch
+x/Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app
+lSLF07#2@87"Touch /Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app329191758#329191758#0(0"0(0#0#0"8613960032#278"    cd /Users/keichi/Documents/NovelReader    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/keichi/Documents/NovelReader/build/Release-iphonesimulator/NovelReader.app0#
+

@@ -1,0 +1,9 @@
+/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m: In function '-[NovelReaderViewController viewDidLoad]':
+/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m:39: warning: 'NSString' may not respond to '-JSONValue'
+/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m:39: warning: (Messages without a matching method signature
+/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m:39: warning: will be assumed to return 'id' and accept
+/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m:39: warning: '...' as arguments.)
+/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m: In function '-[NovelReaderViewController tableView:cellForRowAtIndexPath:]':
+/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m:93: warning: format not a string literal and no format arguments
+/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m:95: warning: format not a string literal and no format arguments
+/Users/keichi/Documents/NovelReader/Classes/NovelReaderViewController.m:101: warning: format not a string literal and no format arguments
